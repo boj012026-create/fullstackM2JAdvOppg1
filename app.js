@@ -1,3 +1,5 @@
+const world = document.getElementById("world");
+
 const player = {
     node: document.getElementById("player"),
     posX: 0,
@@ -22,7 +24,6 @@ const player = {
     }
 }
 
-const world = document.getElementById("world");
 
 document.addEventListener("keydown", e => {
     console.log(e.key);
